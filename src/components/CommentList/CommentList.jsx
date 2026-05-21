@@ -8,5 +8,5 @@ export const CommentList = ({ comments }) => {
         <CommentInfo key={comment.id} comment={comment} />
       ))}
     </div>
-  )
+  );
 };
